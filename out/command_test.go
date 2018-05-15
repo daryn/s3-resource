@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/concourse/s3-resource"
-	"github.com/concourse/s3-resource/fakes"
-	"github.com/concourse/s3-resource/out"
+	"github.com/daryn/s3-resource"
+	"github.com/daryn/s3-resource/fakes"
+	"github.com/daryn/s3-resource/out"
 	"github.com/onsi/gomega/gbytes"
 
 	. "github.com/onsi/ginkgo"

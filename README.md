@@ -179,7 +179,7 @@ The objects in the bucket (e.g. `"arn:aws:s3:::your-bucket/*"`):
 ## Developing on this resource
 
 First get the resource via:
-`go get github.com/concourse/s3-resource`
+`go get github.com/daryn/s3-resource`
 
 ## Development
 

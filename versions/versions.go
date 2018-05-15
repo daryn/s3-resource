@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/concourse/s3-resource"
+	"github.com/daryn/s3-resource"
 	"github.com/cppforlife/go-semi-semantic/version"
 )
 

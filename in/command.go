@@ -8,8 +8,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/concourse/s3-resource"
-	"github.com/concourse/s3-resource/versions"
+	"github.com/daryn/s3-resource"
+	"github.com/daryn/s3-resource/versions"
 )
 
 var ErrMissingPath = errors.New("missing path in request")
