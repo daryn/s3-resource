@@ -159,7 +159,12 @@ func (command *Command) metadata(bucketName, remotePath string, private bool, ve
 		},
 	}
 
-	if !private {
+	if private {
+		metadata = append(metadata, s3resource.MetadataPair{
+			Name:  "url",
+			Value: command.s3client.URL(bucketName, remotePath, true, versionID),
+		})
+	} else {
 		metadata = append(metadata, s3resource.MetadataPair{
 			Name:  "url",
 			Value: command.s3client.URL(bucketName, remotePath, false, versionID),
